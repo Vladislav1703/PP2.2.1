@@ -1,5 +1,7 @@
 package hiber.dao;
 
-public interface CarDao {
+import hiber.model.Car;
 
+public interface CarDao {
+    void add(Car car);
 }

@@ -20,6 +20,9 @@ public class MainApp {
       userService.add(new User("User3", "Lastname3", "user3@mail.ru"));
       userService.add(new User("User4", "Lastname4", "user4@mail.ru"));
 
+//      CarService carService = context.getBean(CarService.class);
+//      carService.add(new Car("Lada Sedan", 2110));
+
       List<User> users = userService.listUsers();
       for (User user : users) {
          System.out.println("Id = "+user.getId());
